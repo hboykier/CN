@@ -1,0 +1,8 @@
+Did
+Instalar Debugbar
+Toque el handler de los errores para devolver el error de sql
+Para generar un service provider http://stackoverflow.com/questions/32419619/how-do-i-make-global-helper-functions-in-laravel-5
+
+ToDo
+Sacar el hover de las datatables
+Ver si se puede armar un controller generico

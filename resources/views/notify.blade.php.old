@@ -1,0 +1,24 @@
+@if(Session::has('success'))
+<script>
+    var notify = $.notify({message: '{{Session::get('success')}}'},{type: 'success', placement: {
+        from: "top",
+        align: "right"},
+        delay: 2000,
+        allow_dismiss: false,
+        animate:{
+            enter: "animated fadeInUp",
+            exit: "animated fadeOutDown"}});
+</script>
+@endif
+@if(Session::has('error to frontend'))
+    <script>
+        var notify = $.notify({message: '{{Session::get('error to frontend')}}'},{type: 'danger', placement: {
+            from: "top",
+            align: "right"},
+            delay: 2000,
+            allow_dismiss: false,
+            animate:{
+                enter: "animated fadeInUp",
+                exit: "animated fadeOutDown"}});
+    </script>
+@endif
